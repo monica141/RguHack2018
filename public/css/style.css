@@ -1,0 +1,70 @@
+/* Wrapper */
+#page-content-wrapper {
+   padding: 0;
+}
+
+#page-content-wrapper .container-fluid {
+   padding: 0;
+}
+
+/* Banner */
+.banner {
+   position: relative;
+   text-align: center;
+}
+
+.banner .text {
+   position: absolute;
+   color: white;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.banner .title h1 {
+   font-size: 6vw;
+}
+
+.banner .background img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.banner .menu {
+   position: absolute;
+   font-size: 25px;
+   background-color: rgba(0, 0, 0, 0);
+   top: 0;
+   transition: 0.25s;
+   padding: 20px;
+}
+
+.banner .menu a{
+   color: white;
+   text-decoration: none;
+}
+
+.banner .menu:active{
+   transform: rotate(90deg);
+}
+
+/* Footer */
+footer{
+   background-color: black;
+   color: white;
+   padding: 50px 200px;
+   text-align: center;
+}
+
+/* Main */
+main {
+   padding: 80px 50px;
+}
+
+main ul li {
+   margin: 20px;
+   list-style: none;
+   padding: 20px;
+   background-color: darkgrey;
+}
