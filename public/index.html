@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>AleTasks</title>
+    <title>AleTasks - <%= title ></title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -29,11 +29,11 @@
         <nav id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand"><a href="#">Main Menu</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Shoping list</a></li>
-                <li><a href="#">Task Manager</a></li>
-                <li><a href="#">ToDo List</a></li>
-                <li><a href="#">Done List</a></li>
+                <li><a href="/categories">Categories</a></li>
+                <li><a href="/shopping">Shoping list</a></li>
+                <li><a href="/tasks">Task Manager</a></li>
+                <li><a href="/todo">ToDo List</a></li>
+                <li><a href="/done">Done List</a></li>
             </ul>
         </nav>
         <!-- /#sidebar-wrapper -->
@@ -49,23 +49,23 @@
                      <a href="#menu-toggle" id="menu-toggle">☰</a>
                   </div>
                   <div class="text">
-                     <h1>Shopping List</h1>
-                     <h2>Here you can see your Shoppinglist</h2>
+                     <h1><%= title %></h1>
+                     <h2><%= subtitle %></h2>
                   </div>
                </header>
-               <main>   
-                     <ul>
-                        <li>Chocolate</li>
-                        <li>Pollo</li>
-                        <li>Hummus</li>
-                        <li>Juice</li>
-                     </ul>
+               <main>
+                  <form class="" action="#" method="post">
+                     <input type="text" name="" value="">
+                  </form>
+                  <ul>
+                     <li><%= info %></li>
+                  </ul>
                </main>
 
                <footer>
                   <p>Done with ❤ at the RGU Hack 2018</p>
-                  <p><a href="github.com/monica141">Monica Dayalani</a></p>
-                  <p><a href="github.com/sergiocast-97">Sergio Castillo</a></p>
+                  <p><a href="https://github.com/monica141">Monica Dayalani</a></p>
+                  <p><a href="https://github.com/sergiocast-97">Sergio Castillo</a></p>
                </footer>
             </div>
         </div>

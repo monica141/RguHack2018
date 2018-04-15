@@ -37,7 +37,7 @@
    background-color: rgba(0, 0, 0, 0);
    top: 0;
    transition: 0.25s;
-   padding: 20px;
+   margin: 20px;
 }
 
 .banner .menu a{
@@ -53,7 +53,7 @@
 footer{
    background-color: black;
    color: white;
-   padding: 50px 200px;
+   padding: 50px 10px;
    text-align: center;
 }
 
@@ -67,4 +67,9 @@ main ul li {
    list-style: none;
    padding: 20px;
    background-color: darkgrey;
+}
+
+main input{
+   margin: 10px 60px;
+   padding: 5px;
 }
